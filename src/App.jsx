@@ -1,7 +1,13 @@
+import { Route, Routes } from "react-router"
+import Navbar from "./components/Navbar"
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <Routes >
+         <Route  path="/" element={<Navbar />}/>
+      </Routes>
+    </div>
   )
 }
 
